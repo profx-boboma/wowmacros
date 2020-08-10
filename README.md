@@ -6,6 +6,7 @@ Created together with Núll @kgnadinger, with early contributions from Paragonic
 This was originally a [gist](https://gist.github.com/profx-boboma/08f08188f8c48af73b7ac1973daa20bb), but since people start contributing, I decided to make it a repo. 
 Any further contribution to the macro or the documentation (this file) is highly appreciated :)
 
+## General WoW Macro Info
 To bring up the macro editor in WoW, type `/m` or `/macro` in the in-game chat box.
 
 There are typically multiple macros in a `.lua` file (9 in `loot_filter.lua`). 
