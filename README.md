@@ -4,6 +4,7 @@ A collection of Macros for World of Warcraft Classic
 Created together with Núll @kgnadinger, with early contributions from Paragonical @BenGu3.
 
 This was originally a [gist](https://gist.github.com/profx-boboma/08f08188f8c48af73b7ac1973daa20bb), but since people started contributing, I decided to make it a repo. 
+
 *Any further contribution to the macro or the documentation (this file) is highly appreciated :)*
 
 ## General WoW Macro Info
