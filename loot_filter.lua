@@ -23,4 +23,4 @@
 /run for b=0,4 do for s=1,GetContainerNumSlots(b) do local id=select(10,GetContainerItemInfo(b,s));name=select(7,GetContainerItemInfo(b,s));if id then DEFAULT_CHAT_FRAME:AddMessage(id .. " - " .. name) end end end
 
 # print white list
-/run local w=_G['wlist']; if not w then print('No White List Set') else print('--White List--') for k, v in pairs(w) do local i=select(2, GetItemInfo(k));print(i) end print('--End of White List--') end
+/run local w=_G['wlist']; if not w then print('No White List Set') else print('--White List--') for k, v in pairs(w) do local i=select(2, GetItemInfo(k)) if v then print(i) end end print('--End of White List--') end
